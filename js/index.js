@@ -4,8 +4,8 @@ const c = parseInt(prompt("Введіть відоме число c"));
 
 
 function solveQuadr(a, b, c) {
-    const x1 = (-b + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / 2 * a;
-    const x2 = (-b - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / 2 * a;
+    const x1 = (-b + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
+    const x2 = (-b - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
     return 'X1 = ' + x1 + ' X2 = ' + x2;
 }
 
